@@ -1,3 +1,4 @@
+/*This is a c program that create directories, files and a link using system calls*/
 #include <stdio.h>
 #include <sys/stat.h>
 #include <sys/types.h>
