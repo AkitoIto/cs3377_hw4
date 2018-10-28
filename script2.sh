@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "----Directoris, files, and a link was created by script1.sh----"
+echo "----Directoris, files, and a link was created----"
 #listing all the files created on 4.1
 ls -l
 ls -l dir1/
@@ -12,7 +12,7 @@ cat script3.sh
 echo -e "\n"
 
 #run script3.sh
-echo "----Running script3.sh, deleting all the files and directories that was created by script1.sh----"
+echo "----Running script3.sh, deleting all the files and directories that was created----"
 ./script3.sh
 echo -e "\n"
 
