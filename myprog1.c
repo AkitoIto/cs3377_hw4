@@ -6,12 +6,14 @@
 int main(int argc, char *argv[])
 {
   /*creating dir1*/
-  int dir1 = mkdir("dir1", 0711); 
+  int dir1 = mkdir("dir1", 0711);
+ 
  /*creating fil10 in dir1*/
   int file10 = creat("dir1/file10", 0711);
 
  /*creating dir2*/
   int dir2 = mkdir("dir2", 0711);
+
  /*creating filw20 in dir2*/
   int file20 = creat("dir2/file20", 0711);
 
